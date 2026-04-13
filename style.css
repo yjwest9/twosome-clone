@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: white;
+}
+
+.header-inner{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    
+}
+
+.logo-icon:hover{
+    cursor: pointer;
+}
+
+.logo-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) 
+    scaleY(0.8);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1; 
+    transform-origin: center;
+}
+
+.logo-text:hover{
+    cursor: pointer;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.main-img{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.main-img:hover{
+    cursor: pointer;
+}
+
+.main-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.badge{
+    position: absolute;
+    border-radius: 20px;
+    top: 12px;
+    right: 16px;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.badge-main{
+    background: rgb(104, 102, 102);
+    color: lightgray;
+}
+
+.badge-main-white{
+    color: white;
+}
+
+.login{
+    background: #f5f5f5;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    position: relative;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.login-1{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.login-red{
+    color: #db0037;
+}
+
+.login-2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18px;
+    
+}
+
+.twosome-gift{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.twosome-gift h2{
+    font-size: 16px;
+}
+
+.gift-plus{
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.gift-plus:hover{
+    cursor: pointer;
+}
+
+.price-collect{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    justify-content: center;
+    color: #656865;
+    margin: 0 16px;
+    column-gap: 10px;
+}
+
+.price-box-all{
+    background: black;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.price-box:hover{
+    cursor: pointer;
+}
