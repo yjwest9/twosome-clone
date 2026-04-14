@@ -147,6 +147,7 @@ main{
   color: var(--color-gray);
   margin: 0 var(--spacing-lg);
   column-gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
 }
 
 .price-box-all {
@@ -157,4 +158,54 @@ main{
 
 .price-box:hover{
     cursor: pointer;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: var(--spacing-lg);
+    padding: var(--spacing-xl);
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-box{
+    position: relative;
+    width: 100%;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: var(--spacing-md);
+    display: block;
+}
+
+.best-badge {
+    position: absolute;
+    top: var(--position-xs);
+    left: var(--position-xs);
+    background: black;
+    color: white;
+    padding: var(--spacing-xs) var(--position-md);
+    font-size: var(--font-size-xs);
+    border-radius: var(--position-sm);
+}
+
+.info {
+    margin-top: var(--spacing-md);
+}
+
+.name {
+    font-size: var(--font-size-xs);
+    font-weight: bold;
+    margin: 0;
+}
+
+.price {
+    font-size: var(--font-size-sm);
+    font-weight: bold;
+    margin: 5px 0 0 0;
 }

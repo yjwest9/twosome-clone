@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+.header-fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 100;
+}
+
+body{
+    padding-top: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-inner{
+    display: flex;
+    position: relative;
+    padding: 8px;
+    height: 48px;
+}
+
+.header-btn{
+    display: flex;
+    gap: 10px;
+    font-weight: 200;
+}
+
+.header-btn-attribute{
+    font-weight: 200;
+}
+
+.header-text{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 800;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.second-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.second-inner{
+    font-size: 14px;
+    font-weight: 600;
+    transform: scaleY(0.9);
+}
+
+.input-group{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.input-attribute{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.icon-right{
+    font-weight: 200;
+    color: #aaa;
+    font-size: 24px;
+}
+
+.icon-right:hover{
+    cursor: pointer;
+}
+
+.help-text{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.main-message{
+    display: flex;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.img-area{
+    flex: 1;
+}
+
+.main-message img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn{
+    background: none;
+    padding: 4px 20px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+}
+
+.form-btn:hover{
+    cursor: pointer;
+}
+
+.btn-icon{
+    font-size: 10px;
+}
+
+.icon-up{
+    border-bottom: none;
+}
+
+.login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.login-btn{
+    color: white;
+    background: black;
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+}
+
+.found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    color: #676967;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.found-line{
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.found-inner:hover{
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.brand img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heart{
+    display: flex;
+    gap: 4px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.heart span{
+    color: #dd1837;
+}
+
+.last-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.last-btn button{
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+    background: white;
+}
+
+.last-btn button:hover{
+    cursor: pointer;
+}

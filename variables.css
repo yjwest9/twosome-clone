@@ -34,4 +34,9 @@
   --header-height: 50px;
   --login-height: 88px;
   --z-header: 100;
+
+  /* position */
+  --position-xs: 5px;
+  --position-sm: 4px;
+  --position-md: 6px;
 }
