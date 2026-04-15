@@ -208,4 +208,15 @@ main{
     font-size: var(--font-size-sm);
     font-weight: bold;
     margin: 5px 0 0 0;
+    display: block;
+}
+
+.price-gap{
+    display: flex;
+    gap: 0;
+}
+
+.info-won{
+    font-size: 10px;
+    font-weight: 500;
 }
