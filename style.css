@@ -4,137 +4,134 @@
   padding: 0;
 }
 
-.header-fixed{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: var(--z-header);
-    background: var(--color-white);
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: var(--z-header);
+  background: rgba(255, 255, 255, 0.8);
 }
 
-.header-inner{
-    display: flex;
-    padding: var(--spacing-md);
-    align-items: center;
-    position: relative;
-    
+.header-inner {
+  display: flex;
+  padding: var(--spacing-md);
+  align-items: center;
+  position: relative;
 }
 
-.logo-icon:hover{
-    cursor: pointer;
+.logo-icon:hover {
+  cursor: pointer;
 }
 
-.logo-text{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) 
-    scaleY(0.8);
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-bold);
-    line-height: 1; 
-    transform-origin: center;
+.logo-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(0.8);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  transform-origin: center;
 }
 
-.logo-text:hover{
-    cursor: pointer;
+.logo-text:hover {
+  cursor: pointer;
 }
 
-main{
-    margin-top: var(--header-height);
+main {
+  margin-top: var(--header-height);
 }
 
-.main-img{
-    width: 100%;
-    max-width: 1200px;
-    position: relative;
+.main-img {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
 }
 
-.main-img:hover{
-    cursor: pointer;
+.main-img:hover {
+  cursor: pointer;
 }
 
-.main-img img{
-    width: 100%;
-    height: auto;
-    display: block;
+.main-img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.badge{
-    position: absolute;
-    border-radius: var(--radius-sm);
-    top: 12px;
-    right: 16px;
-    padding: var(--spacing-xs) var(--spacing-sm);
-    font-size: var(--font-size-sm);
+.badge {
+  position: absolute;
+  border-radius: var(--radius-sm);
+  top: 12px;
+  right: 16px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-sm);
 }
 
-.badge-main{
-    background: var(--color-gray-dark);
-    color: var(--color-gray-text);
+.badge-main {
+  background: var(--color-gray-dark);
+  color: var(--color-gray-text);
 }
 
-.badge-main-white{
-    color: var(--color-white);
+.badge-main-white {
+  color: var(--color-white);
 }
 
-.login{
-    background: var(--color-gray-light);
-    width: 100%;
-    height: var(--login-height);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: var(--spacing-xl);
-    position: relative;
+.login {
+  background: var(--color-gray-light);
+  width: 100%;
+  height: var(--login-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: var(--spacing-xl);
+  position: relative;
 }
 
-.login:hover{
-    cursor: pointer;
+.login:hover {
+  cursor: pointer;
 }
 
-.login-1{
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-medium);
+.login-1 {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
 }
 
-.login-red{
-    color: var(--color-red);
+.login-red {
+  color: var(--color-red);
 }
 
-.login-2{
-    font-size: var(--font-size-lg);
-    font-weight: var(--font-weight-bold);
+.login-2 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
 }
 
-.login-arrow{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 18px;
-    
+.login-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 18px;
 }
 
-.twosome-gift{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding: 0 20px;
-    align-items: center;
-    margin-bottom: 20px;
+.twosome-gift {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 20px;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.twosome-gift h2{
-    font-size: 16px;
+.twosome-gift h2 {
+  font-size: 16px;
 }
 
-.gift-plus{
-    font-size: 10px;
-    font-weight: 550;
+.gift-plus {
+  font-size: 10px;
+  font-weight: 550;
 }
 
-.gift-plus:hover{
-    cursor: pointer;
+.gift-plus:hover {
+  cursor: pointer;
 }
 
 .price-collect {
@@ -156,67 +153,81 @@ main{
   border-radius: var(--radius-lg);
 }
 
-.price-box:hover{
-    cursor: pointer;
+.price-box:hover {
+  cursor: pointer;
 }
 
-.product-grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: var(--spacing-lg);
-    padding: var(--spacing-xl);
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
+  padding: 8px 20px;
 }
 
-.product-card{
-    display: flex;
-    flex-direction: column;
+.product-card {
+  display: flex;
+  flex-direction: column;
 }
 
-.img-box{
-    position: relative;
-    width: 100%;
+.img-box {
+  position: relative;
+  width: 100%;
+  height: 86px;
+  display: flex;
+  align-items: center;
 }
 
 .img-box img {
-    width: 100%;
-    border-radius: var(--spacing-md);
-    display: block;
+  width: 100%;
+  border-radius: var(--spacing-md);
+  display: block;
 }
 
 .best-badge {
-    position: absolute;
-    top: var(--position-xs);
-    left: var(--position-xs);
-    background: black;
-    color: white;
-    padding: var(--spacing-xs) var(--position-md);
-    font-size: var(--font-size-xs);
-    border-radius: var(--position-sm);
+  position: absolute;
+  top: var(--position-xs);
+  left: var(--position-xs);
+  background: black;
+  color: white;
+  padding: var(--spacing-xs) var(--position-md);
+  font-size: var(--font-size-xs);
+  border-radius: var(--position-sm);
 }
 
 .info {
-    margin-top: var(--spacing-md);
+  margin-top: var(--spacing-md);
 }
 
 .name {
-    font-size: var(--font-size-xs);
-    font-weight: bold;
-    margin: 0;
+  font-size: var(--font-size-xs);
+  font-weight: bold;
+  margin: 0;
 }
 
 .price {
-    font-size: var(--font-size-sm);
-    font-weight: bold;
-    margin: 5px 0 0 0;
-    display: block;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  margin-top: 5px;
+  display: block;
 }
 
-.price-gap{
-    display: flex;
-    gap: 0;
+.price-gap {
+  display: flex;
+  gap: 0;
+  align-items: baseline;
 }
 
-.info-won{
-    font-size: 10px;
-    font-weight: 500;
+.info-won {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.twosome-h2 {
+  margin-top: 30px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.gray-name {
+  color: #5d5d5d;
 }
