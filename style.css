@@ -109,6 +109,11 @@ main {
   font-weight: var(--font-weight-bold);
 }
 
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
 .login-arrow {
   position: absolute;
   top: 50%;
